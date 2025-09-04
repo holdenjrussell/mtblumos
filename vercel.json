@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd lumos-website && npm install && npm run build",
+  "outputDirectory": "lumos-website/dist",
+  "installCommand": "cd lumos-website && npm install",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
