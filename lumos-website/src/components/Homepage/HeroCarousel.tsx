@@ -29,40 +29,40 @@ const HeroCarousel: React.FC = () => {
   const slides: HeroSlide[] = [
     {
       id: 1,
-      title: 'WINTER SALE',
-      subtitle: 'goodbye razors, hello smooth',
-      description: "The only IPL with COOLMAX™ technology for pain-free permanent hair removal in just 10 days",
-      ctaPrimary: 'SHOP NOW - $169',
-      ctaSecondary: 'WATCH DEMO',
+      title: '50% OFF TODAY',
+      subtitle: 'The Coldest IPL Ever Made',
+      description: "Revolutionary 50°F COOLMAX™ technology - 30° colder than Ulike, 50° colder than Nood. Zero pain, maximum results.",
+      ctaPrimary: 'CLAIM 50% OFF - $169',
+      ctaSecondary: 'SEE REAL RESULTS',
       backgroundImage: '[Placeholder: Model with smooth skin in bright, modern bathroom setting - woman in white robe examining her legs in well-lit marble bathroom]',
       priceComparison: {
-        competitor: 'Competitor',
-        competitorPrice: 349,
+        competitor: 'Ulike Air 10',
+        competitorPrice: 329,
         lumosPrice: 169,
-        savings: 180
+        savings: 160
       },
       testimonial: {
-        text: "Life-changing! Better than my $3000 laser treatments",
+        text: "The cooling is incredible! No pain at all unlike my old Nood device",
         author: "Sarah M.",
         rating: 5
       }
     },
     {
       id: 2,
-      title: 'REVOLUTIONARY COOLING',
-      subtitle: '50°F ice-cold comfort vs 65-100°F competitors',
-      description: "The COOLMAX™ Advantage: Industry's coldest IPL for completely pain-free treatments",
-      ctaPrimary: 'DISCOVER COOLMAX',
-      ctaSecondary: 'SHOP NOW',
+      title: 'PATENTED TECHNOLOGY',
+      subtitle: 'Beats $3,000 Salon Treatments',
+      description: "Dual-Light IPL with Sapphire COOLMAX™ delivers 26J of energy while staying ice-cold. 96% hair reduction in 2 weeks.",
+      ctaPrimary: 'GET YOURS - $169',
+      ctaSecondary: 'COMPARE DEVICES',
       backgroundImage: '[Placeholder: Close-up of device with blue cooling visualization - product shot showing cooling vents with blue light effects and ice crystals]'
     },
     {
       id: 3,
-      title: 'TRANSFORM YOUR ROUTINE',
-      subtitle: 'from daily shaving to lifetime smooth',
-      description: "90% hair reduction in just 4 weeks. Join 1,000,000+ happy customers",
-      ctaPrimary: 'GET STARTED - $169',
-      ctaSecondary: 'SEE RESULTS',
+      title: '1 MILLION+ SMOOTH',
+      subtitle: 'Join The Hair-Free Revolution',
+      description: "FDA-cleared, dermatologist-recommended. 90-day money back guarantee. Lifetime device warranty.",
+      ctaPrimary: 'START TODAY - $169',
+      ctaSecondary: '90-DAY GUARANTEE',
       backgroundImage: '[Placeholder: Before/after transformation visual - split screen showing progression from hairy to smooth skin with timeline markers]'
     }
   ];
