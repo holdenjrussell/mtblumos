@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 
 interface ComparisonData {
   feature: string;
-  lumos: string | JSX.Element;
+  lumos: string | React.JSX.Element;
   ulike: string;
   nood: string;
   lumosAdvantage: boolean;
 }
 
 const CompetitiveDifferentiation: React.FC = () => {
-  const [savingsAmount, setSavingsAmount] = useState(180);
+  const [savingsAmount] = useState(180);
 
   const comparisonData: ComparisonData[] = [
     {

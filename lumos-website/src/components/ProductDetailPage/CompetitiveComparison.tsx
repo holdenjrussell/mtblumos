@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 
 interface ComparisonFeature {
   feature: string;
-  lumos: string | JSX.Element;
-  competitor: string | JSX.Element;
+  lumos: string | React.JSX.Element;
+  competitor: string | React.JSX.Element;
   lumosAdvantage: boolean;
 }
 

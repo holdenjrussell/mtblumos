@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 interface Review {
   id: number;
@@ -12,7 +12,6 @@ interface Review {
 }
 
 const SocialProof: React.FC = () => {
-  const [selectedReview, setSelectedReview] = useState<number | null>(null);
 
   const reviews: Review[] = [
     {
